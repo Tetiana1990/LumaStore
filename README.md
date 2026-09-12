@@ -34,7 +34,7 @@ product details, search, filtering, sorting, and a functional shopping cart with
 
 ## Project Structure
 
-`text
+```text
 LumaStore/
 │
 ├── index.html
