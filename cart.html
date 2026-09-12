@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cart | LumaStore</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<a href="index.html" class="logo">LumaStore</a>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav-item"><a href="index.html">Home</a></li>
+					<li class="nav-item"><a href="products.html">Products</a></li>
+					<li class="nav-item"><a href="cart.html">Cart(<span id="cart-count">0</span>)</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="cart">
+			<div class="container">
+				<h1 class="cart__title">Shopping Cart</h1>
+				<div id="cart-items" class="cart__items"></div>
+				<div class="cart__summary">
+					<p>Total: <span id="cart-total">$0</span></p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="js/product.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/cart.js"></script>
+	
+</body>
+</html>

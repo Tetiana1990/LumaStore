@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LumaStore - Modern E-commerce</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<a href="index.html" class="logo">LumaStore</a>
+
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="index.html">Home</a></li>
+					<li class="nav__item"><a href="products.html">Products</a></li>
+					<li class="nav-item"><a href="cart.html">Cart(<span id="cart-count">0</span>)</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="hero">
+		<div class="container">
+			<div class="hero__content">
+				<p class="hero__subtitle">New Collection 2026</p>
+				<h1 class="hero__title">Discover Your <span>Perfect Style</span></h1>
+				<p class="hero__text">Modern essentials designed for every day life. </p>
+				<a href="products.html" class="button">Shop Now</a>
+			</div>
+		</div>
+	</section>
+	<section class="categories">
+		<div class="container">
+			<div class="section-header">
+				<p class="section-header__subtitle">Explore</p>
+				<h2 class="section-header__title">Shop by Category</h2>
+			</div>
+
+			<div class="category__grid">
+				<a href="products.html?category=Clothing" class="category-card" >
+					<h3>Clothing</h3>
+					<p>Discover out collection</p>
+				</a>
+
+				<a href="products.html?category=Shoes" class="category-card" >
+					<h3>Shoes</h3>
+					<p>Find your perfect pair</p>
+				</a>
+
+				<a href="products.html?category=Accessories" class="category-card" >
+					<h3>Accessories</h3>
+					<p>Complete your style</p>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="featured">
+		<div class="container">
+			<div class="section-header">
+				<p class="section-header__subtitle">Our Selection</p>
+				<h2 class="section-header__title">Featured Products</h2>
+			</div>
+			<div class="products-grid" id="featured-products"></div>
+
+			<div class="section-action">
+				<a href="products.html" class="button">View All Products</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="offer">
+		<div class="container">
+			<div class="offer__content">
+				<p class="offer__subtitle">Limited Offer</p>
+				<h2 class="offer__title">Get 20% Off Your First Order</h2>
+				<p class="offer__text">Discover our new collection and find something you'll love.</p>
+				<a href="products.html" class="button">Shop collection</a>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__content">
+				<div class="footer__brand">
+					<a href="index.html" class="logo">LumaStore</a>
+					<p>Modern essentials for everyday life</p>
+				</div>
+				<div class="footer__links">
+					<h3>Quick Links</h3>
+
+					<nav class="nav" aria-label="Footer navigation">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="index.html">Home</a></li>
+					<li class="nav__item"><a href="products.html">Products</a></li>
+					<li class="nav__item"><a href="cart.html">Cart</a></li>
+				</ul>
+			</nav>
+
+</div>
+			</div>
+			<p class="footer__copyright">2026 LumaStore. All rights reserved</p>
+		</div>
+	</footer>
+	<script src="js/product.js"></script>
+	<script src="js/products.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

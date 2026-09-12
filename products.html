@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Products - LumaStore</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<a href="index.html" class="logo">LumaStore</a>
+
+			<nav class="nav" aria-label="Main navigation">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="index.html">Home</a></li>
+					<li class="nav__item"><a href="products.html">Products</a></li>
+					<li class="nav__item"><a href="cart.html">Cart(<span id="cart-count">0</span>)</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+
+		<section class="products-page">
+			<div class="container">
+				<div class="section-header">
+					<p class="section-header__subtitle">Explore</p>
+					<h1 class="section-header__title">All Products</h1>
+				</div>
+
+				<div class="products-page__controls">
+					<input type="search" id="search-input" class="product-page__search" placeholder="Search products...">
+					<div class="products-page__categories" aria-label="Product categories">
+						<button class="category-filter active" data-category="All">All</button>
+						<button class="category-filter" data-category="Clothing">Clothing</button>
+						<button class="category-filter" data-category="Shoes">Shoes</button>
+						<button class="category-filter" data-category="Accessories">Accessories</button>
+						
+					</div>
+
+					<select id="sort-select" class="products-page__sort">
+						<option value="default">Sort by</option>
+						<option value="price-low">Price: Low to High </option>
+						<option value="price-high">Price: High to Low</option>
+						<option value="name">Name: A-Z</option>
+					</select>
+
+				</div>
+				<div class="products-grid" id="products-grid"></div>
+
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__content">
+				<div class="footer__brand">
+					<a href="index.html" class="logo">LumaStore</a>
+					<p>Modern essentials for everyday life</p>
+				</div>
+				<div class="footer__links">
+					<h3>Quick Links</h3>
+
+					<nav class="nav" aria-label="Footer navigation">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="index.html">Home</a></li>
+					<li class="nav__item"><a href="products.html">Products</a></li>
+					<li class="nav__item"><a href="cart.html">Cart</a></li>
+				</ul>
+			</nav>
+
+</div>
+			</div>
+			<p class="footer__copyright">2026 LumaStore. All rights reserved</p>
+		</div>
+	</footer>
+	<script src="js/product.js"></script>
+   <script src="js/main.js"></script>
+	<script src="js/products.js"></script>
+	
+
+	
+	
+</body>
+</html>
